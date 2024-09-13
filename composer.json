@@ -1,0 +1,22 @@
+{
+    "name": "rostro.com/omnibus-api",
+    "description": "This is the API client library for Rostro Financials Group Omnibus application.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rostro\\Omnibus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rostro Financials Group",
+            "email": "development@rostro.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": ">=7.8"
+    }
+}
