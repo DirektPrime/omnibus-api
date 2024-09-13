@@ -17,6 +17,7 @@ use Rostro\Omnibus\Client;
 $client = new Client([
     'username' => ‘your account email address’,
     'password' => ‘your account password’,
+    'host' => 'your subdomain https URL',
 ]);
 
 // Get your user information.
@@ -70,3 +71,6 @@ $results = $client->devexTrades([
  - `devexTrades` - Get the Devex trades data.
 
 Details of the API parameters can be found in the API menu of the application.
+
+Your subdomain URL can be found in the Settings -> Omnibus page in MyAccount.
+It's also the URL that you use to log into the Omnibus application.
