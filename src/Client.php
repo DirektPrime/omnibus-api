@@ -161,7 +161,7 @@ class Client
      */
     public function iressDividendTax($params = [])
     {
-        return $this->apiRequest('ress/dividendtax', $params);
+        return $this->apiRequest('iress/dividendtax', $params);
     }
 
     /**
